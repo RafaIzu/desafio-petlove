@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 150px;
+    background-color: white;
+    border-top: 60px;
+    border:#C0C0C0 groove 1px;
+
+}
+
+input{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.botao{
+    color: white;
+    background-color: #333333;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer
+}
+
+.resposta{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 395px;
+    height: 180px;
+    background-color: white;
+    padding-left: 20px;
+    color: #333333;
+    border:#C0C0C0 groove 1px;
+}
+
+.resposta a{
+    font-weight: bold;
+}
