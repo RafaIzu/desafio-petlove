@@ -59,7 +59,7 @@ class App extends Component{
                 <form data-test ="form-app" onSubmit = {this.buscarCep}>
                 <MaskedInput data-test ="input-app" className='inputCep' type= "text" name ="cpf"
                     value ={this.state.cpf} onChange={(e) => this.setState({cep: e.target.value})}
-                    mask={[/\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/]}
+                    mask={[/\d/, /\d/, /\d/, /\d/, /\d/, /\d/, /\d/, /\d/]}
                     showMask={false} placeholder ="00000-000"/>
                     <button data-test ="button-app" className='botao' type = "submit" >Buscar CEP</button>
                 </form>

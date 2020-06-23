@@ -11,7 +11,7 @@ class Answer extends Component{
         return(
             <div data-test ="answer-app" className = "resposta">
             <div>
-                <p><a>CEP:</a> {this.props.lista.cep}</p>
+                <p><a>CEP:</a> {this.props.lista.cep.replace('-', '')}</p>
                 <p><a>Estado:</a> {this.props.lista.uf}</p>
                 <p><a>Cidade:</a> {this.props.lista.localidade}</p>
                 <p><a>Logradouro:</a> {this.props.lista.logradouro}</p>
