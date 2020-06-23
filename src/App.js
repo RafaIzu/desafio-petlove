@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './style.css'
 //import Formulario from './modules/form/Formulario'
 import Answer from './modules/answer/Answer'
+import MaskedInput from 'react-text-mask'
 
 
 class App extends Component{
@@ -56,10 +57,10 @@ class App extends Component{
             <div data-test = "container-app"  className = "container">
                 <div className = "formulario">
                 <form data-test ="form-app" onSubmit = {this.buscarCep}>
-                    <input data-test ="input-app" className='inputCep' type= "text" name ="cpf"
-                        value ={this.state.cpf} onChange={(e) => this.setState({cep: e.target.value})}
-                        placeholder = '00000-000' maxLength = "8"
-                    />
+                <MaskedInput data-test ="input-app" className='inputCep' type= "text" name ="cpf"
+                    value ={this.state.cpf} onChange={(e) => this.setState({cep: e.target.value})}
+                    mask={[/\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/]}
+                    showMask={false} placeholder ="00000-000"/>
                     <button data-test ="button-app" className='botao' type = "submit" >Buscar CEP</button>
                 </form>
             </div>
