@@ -1,9 +1,9 @@
-<h1>Desafio Petlove</h1>
+<h1>Aplicativo busca cep com react</h1>
 <h3>Projeto desenvolvido por Rafael Belmonte Izukawa</h3>
 <hr>
 <h2>Sobre:</h2>
 <p>Aplicativo destinado para a pesquisa do Estado, Cidade e logradouro a partir do número do CEP digitado. </p>
-<p>Esse aplicativo foi desenvolvido com uso da linguagem JavaScript, utilizando o framework ReactJS</p>
+<p>Esse aplicativo foi desenvolvido com uso da linguagem JavaScript, utilizando o framework ReactJS para fins de estudo</p>
 <hr>
 <h2>Instruções de uso:</h2>
 <h4>Para executar o arquivo no localhost:</h4>
